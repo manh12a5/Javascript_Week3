@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="511e891b-85eb-4ada-8b41-e4382c80e5c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Month 2 ( JavaCore)/SystemTime/src/SystemTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/File Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/CssStart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/Game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/Start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/audio/DaiLy1NhacNenGameThienLongBatBo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/audio/NhiHaiNhacNenGameThienLongBatBo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Doan-ten.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Donald-Trump.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Huan-hoa-hong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Joe-Biden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/My-Tam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Nguyen-Xuan-Phuc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Tran-Dan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Untitled1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/Untitled2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/start.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Case Study Month 1/image/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/.idea/Week 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/BanCoVua.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/CVCaNhan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/HTMLform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo bảng cơ bản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo bảng nâng cao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo bảng đơn giản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo form cơ bản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo form đơn giản.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo giao diện form đăng ký người dùng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 1/Tạo một form tìm kiếm Google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 01/Bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 02/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 02/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 02/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 02/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Luyện tập vòng lặp 02/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Test vòng lặp FOR/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Test vòng lặp FOR/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Test vòng lặp FOR/Test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Test vòng lặp WHILE/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Test vòng lặp WHILE/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Test/Text1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Thực Hành/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Thực Hành/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Thực Hành/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Thực Hành/BangCuuChuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Cấu trúc lặp/Thực Hành/SoNguyenTo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Bài tập/QuanLySanPham.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 01/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 01/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 01/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 01/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 01/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Luyện tập tạo và sử dụng hàm 02/Bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Test/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Test/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Test/Test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Test/Test4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Thực hành/ChuyenDoiNhietDo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Thực hành/SoNguyenTo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Thực hành/TaoVaGoiHam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Thực hành/TimGiaTriNhoNhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Hàm/Thực hành/feet_meters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/BongDen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/Game đơn giản - di chuyển đối tượng/Js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/Game đơn giản - di chuyển đối tượng/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/Game đơn giản - di chuyển đối tượng/jerry_run.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/HinhChuNhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/Temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Bài tập/Xây dựng lớp mô tả điện thoại.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Test/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Test/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Test/Test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Thực hành/Funny.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Thực hành/Xây dựng lớp Date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Lập trình Hướng Đối tượng/Thực hành/Xây dựng lớp Hình Tròn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 01/Bai9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Luyện tập mảng 02/Bai6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Test/Test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Test/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Test/Test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/CoCaro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/DaoNguocPhanTu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/Faking Textarea on Typing/Faking Textarea on Typing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/Faking Textarea on Typing/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/TaoVaThaoTac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/TikTokToe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/TimGiaTri.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/TimGiaTriLonNhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Month 1/Week 3/Mảng/Thực hành/TuDien.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l5KAoqD1YPUbSvU5Lo6aHlYIZn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="511e891b-85eb-4ada-8b41-e4382c80e5c3" name="Default Changelist" comment="" />
+      <created>1606881371032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606881371032</updated>
+      <workItem from="1606881372156" duration="99000" />
+      <workItem from="1606881635851" duration="25000" />
+      <workItem from="1606882789718" duration="150000" />
+      <workItem from="1607068667771" duration="95000" />
+      <workItem from="1607305794873" duration="1596000" />
+      <workItem from="1607587234011" duration="1097000" />
+      <workItem from="1607588824651" duration="923000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

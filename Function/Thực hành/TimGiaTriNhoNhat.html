@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giá trị nhỏ nhất</title>
+</head>
+<body>
+<script>
+    let x = [3, 5, 1, 8, -3, 7, 8];
+    let min = tinhmin(x);
+    alert(min);
+
+    function tinhmin(x) {
+        let min = x[0];
+        for (let i = 1; i < x.length; i++) {
+            if (x[i] < min) {
+                min = x[i];
+            }
+        }
+        return min;
+    }
+</script>
+
+</body>
+</html>

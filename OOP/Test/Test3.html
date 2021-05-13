@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style=" width: 250px; height: 275px; border: 2px black solid"> Hiện Ngày Ở Đây <br> <br>
+    Giờ: <br> <input type="text" id="hour"> <br> <br>
+    Phút: <br> <input type="text" id ="min"> <br> <br>
+    Giây: <br> <input type="text" id="second"> <br> <br>
+    <button onclick="updateTime()"> Cập Nhập Thời Gian</button>
+</div> <br>
+
+<script>
+    function updateTime() {
+        let x = new Date();
+        document.getElementById("hour").value = x.getHours();
+        document.getElementById("min").value = x.getMinutes();
+        document.getElementById("second").value = x.getSeconds();
+    }
+    function repeatTime() {
+        setInterval(updateTime, 1000);
+    }
+    repeatTime();
+</script>
+
+</body>
+</html>

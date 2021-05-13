@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<input type="text" id="test">
+<button onclick="myList()"> Click Me!</button>
+<script>
+    function myList() {
+        let a = document.getElementById("test").value;
+        if (isNaN(a)) {
+            alert("False");
+        } else {
+            alert("True");
+        }
+    }
+</script>
+</body>
+</html>

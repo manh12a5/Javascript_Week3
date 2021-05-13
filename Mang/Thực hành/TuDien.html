@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ Điển</title>
+</head>
+<body>
+<h1> Từ Điển</h1>
+<input type="text" id="index">
+<button id="nut" onclick="main()">Dịch</button>
+<p id="dich"></p>
+<script>
+    debugger
+    let eng = ["hello", "kill", "understand", "apple", "setting"];
+    let vnese = ["xin chào", "giết", "hiểu", "quả táo", "cài đặt"];
+
+    function main() {
+        let word = document.getElementById("index").value
+        for (let i = 0; i < eng.length; i++) {
+            if (word === eng[i]) {
+                document.getElementById("dich").innerText = vnese[i];
+            }
+        }
+    }
+</script>
+</body>
+</html>

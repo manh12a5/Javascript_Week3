@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funny Circle</title>
+</head>
+<style>
+    canvas{
+        float: left;
+    }
+</style>
+<body>
+<canvas id="my-canvas" width="800px" height="600px" style="background-color: pink"></canvas>
+<button onclick="init()">Start</button>
+<button onclick="stopGame()">Pause</button>
+<button onclick="startGame()">Continue</button>
+<script>
+    class Circle {
+        constructor(x,y,radius,color,speed) {
+            this.x = x;
+            this.y = y;
+            this.radius =radius;
+            this.color = color;
+            this.speed = speed;
+        }
+
+        draw(canvas){
+            let pen = canvas.getContext('2d');
+            pen.beginPath();
+            pen.arc(this.x,this.y,this.radius,0,2*Math.PI);
+            pen.fillStyle = this.color;
+            pen.fill();
+            pen.closePath();
+        }
+
+        move(){
+            this.x += this.speed;
+        }
+    }
+
+    let canvas = document.getElementById('my-canvas');
+    let circles = [];
+    let run;
+
+    function createCircles(number){
+        for (let i = 0; i < number; i++) {
+            let x = randomNumber(40,100);
+            let y = randomNumber(100,canvas.height-100);
+            let radius = randomNumber(10,40);
+            let color = randomColor();
+            let speed = randomNumber(5,20);
+
+            let circle = new Circle(x,y,radius, color,speed);
+            circles.push(circle);
+        }
+        drawCircles();
+    }
+
+    function drawCircles() {
+        for (let i = 0; i < circles.length; i++) {
+            circles[i].draw(canvas);
+        }
+    }
+
+    function moveCircle() {
+        clearScreen();
+        for(let circle of circles){
+            if(circle.x >= canvas.width-circle.radius || circle.x <= circle.radius){
+                circle.speed = -1 * circle.speed;
+            }
+            circle.move();
+        }
+        drawCircles();
+    }
+
+    //Xoa man hinh canvas
+    function clearScreen() {
+        let pen = canvas.getContext('2d');
+        pen.clearRect(0,0,canvas.width,canvas.height);
+    }
+
+    //Ham tao ngau nhien 1 so
+    function randomNumber(min,max){
+        let rand = Math.floor(Math.random()*(max-min))+min;
+        return rand;
+    }
+
+    //Ham tao mau ngau nhien
+    function randomColor(){
+        let red = randomNumber(0,255);
+        let green = randomNumber(0,255);
+        let blue = randomNumber(0,255);
+
+        let rgb = `rgb(${red},${green},${blue})`;
+        return rgb;
+    }
+
+    // khoi tao thong so game
+    function init() {
+        clearScreen();
+        circles = [];
+        let rand = randomNumber(5,20);
+        createCircles(rand);
+    }
+
+    //Tiep tuc chay game
+    function startGame(){
+        run = setInterval(moveCircle,60);
+    }
+
+    //Tam dung chuyen dong game
+    function stopGame(){
+        clearInterval(run);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let arr = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function myList() {
+        let index = -1;
+        let x = prompt("Nhập tên của ngôi sao ");
+        for (let i = 0; i < arr.length; i++) {
+            if (x == arr[i]) {
+                alert(arr2[i]);
+                index = i;
+            }
+        }
+        if (index == -1) {
+            alert(" Không tim thấy");
+        }
+    }
+myList();
+</script>
+</body>
+</html>

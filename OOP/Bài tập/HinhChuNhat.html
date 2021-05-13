@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả hình chữ nhật</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500px" height="500px" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+    let chuNhat = function (cd, cr) {
+        this.chieudai = cd;
+        this.chieurong = cr;
+
+        this.getArea = function () {
+            return this.chieudai * this.chieurong;
+        }
+
+        this.getPerimeter = function () {
+            return 2 * (this.chieudai + this.chieurong);
+        }
+
+        this.toString = function () {
+            let st = "";
+            st += "<br>" + "Chiều dài: " + cd;
+            st += "<br>" + "Chiều rộng: " + cr;
+            st += "<br>" + "Diện tích: " + this.getArea();
+            st += "<br>" + "Chu vi: " + this.getPerimeter();
+            return st;
+        }
+
+        this.draw = function (context) {
+            context.beginPath();
+            context.fillRect(100, 100, this.chieudai, this.chieurong);
+            context.stroke();
+
+        }
+
+    }
+
+    function main() {
+        let a = parseFloat(prompt("Nhập chiều dài: "));
+        let b = parseFloat(prompt("Nhập chiều rộng: "));
+        let canvas = document.getElementById("myCanvas");
+        let context = canvas.getContext("2d");
+        let c = new chuNhat(a, b);
+
+        document.write(c.toString());
+        document.write("<br>" + "-----");
+        c.draw(context);
+    }
+
+    main();
+</script>
+</body>
+</html>

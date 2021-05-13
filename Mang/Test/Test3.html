@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let myArr = new Array();
+    let tt;
+
+    do {
+        let sv = new Array();
+        sv ["Ho ten"] = prompt("Ho ten: ");
+        sv ["Lop"] = prompt("Lop: ");
+        sv ["Diem Toan"] = parseFloat(prompt("Diem Toan: "));
+        sv ["Diem Ly"] = parseFloat(prompt("Diem Ly: "));
+        sv ["Diem Hoa"] = parseFloat(prompt("Diem Hoa: "));
+        myArr.push(sv);
+
+        tt = prompt("Tiep tuc (c/k) ?");
+
+    } while (tt == "C" || tt == "c");
+
+    // Hiển thị sinh viên
+    for (let x in myArr) {
+        for (let y in myArr[x])
+            document.write(y + " : " + myArr[x][y] + "<br>");
+        let DTB = ((myArr[x]["Diem Toan"] + myArr[x]["Diem Ly"] + myArr[x]["Diem Hoa"])/3);
+        document.write(" Điểm DTB: " + DTB + "<br>");
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>

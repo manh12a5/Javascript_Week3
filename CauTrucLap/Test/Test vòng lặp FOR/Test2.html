@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính gà và chó</title>
+</head>
+<body>
+<script>
+    // Bài toán:
+    // gà + chó = 36
+    // 2* gà + 4* chó = 100
+    let ga, cho, dem = 0;
+    for (ga = 0; ga <= 36; ga++)
+        for (cho = 0; cho <= 36; cho++) {
+            if (ga + cho == 36 && 2 * ga + 4 * cho == 100) {
+                document.write(" Số gà: " + ga + "<br>" + "Số chó: " + cho);
+                break;
+            }
+            dem++;
+        }
+    document.write("Số lần lặp là: " + dem);
+            // Thực hiện 36 lần
+    // Cách 2
+    let ga, cho, dem = 0;
+    for (ga = 0; ga <= 36; ga++)
+         {
+            if (2 * ga + (36 - ga) == 100) {
+                document.write(" Số gà: " + ga + "<br>" + "Số chó: " + cho);
+                break;
+            }
+            dem++;
+        }
+    document.write("<br>" + "Số lần lặp là: " + dem);
+</script>
+</body>
+</html>

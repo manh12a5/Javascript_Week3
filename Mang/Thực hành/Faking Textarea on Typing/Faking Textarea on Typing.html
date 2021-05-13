@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textarea on Typing</title>
+</head>
+<body>
+<h1> Faking Textarea on Typing</h1>
+<textarea id = "test" onkeypress="key()" style="width: 360px; height: 100px"></textarea>
+<script>
+    let x = ['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd', '!'];
+    let a;
+    function key() {
+        for (let i = 0; i < x.length; i++) {
+            if ( a == x[i]){
+                document.getElementById("test").onkeypress = x[i];
+
+            }
+
+        }
+    }
+
+
+</script>
+</body>
+</html>

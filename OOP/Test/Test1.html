@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hình Tròn</title>
+</head>
+<body>
+<script>
+    let Circle = function (r) {
+        this.radius = r;
+
+        this.getArea = function () {
+            return Math.PI * this.radius * this.radius;
+        }
+
+        this.getPerimeter = function () {
+            return 2 * Math.PI * r;
+        }
+
+        this.toString = function () {
+            let st = "";
+            st += "<br>" + "Bán kính: " + r;
+            st += "<br>" + "Chu vi: " + this.getPerimeter();
+            st += "<br>" + "Diện tích: " + this.getArea();
+            return st;
+        }
+    }
+
+    let c1 = new Circle(10);
+    let c2 = new Circle(50);
+
+    document.write(c1.toString());
+    document.write(c2.toString());
+
+    let arr = [];
+    for (let i = 0; i < 10 ; i++) {
+        let x = new Circle(Math.random() * 100);
+        arr.push(x);
+    }
+
+    for (i in arr) {
+        document.write("<br>" + "-----")
+        document.write(arr[i].toString());
+    }
+</script>
+</body>
+</html>

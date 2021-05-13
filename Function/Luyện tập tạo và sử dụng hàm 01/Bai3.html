@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<input type="text" id = "test1">
+<input type="text" id = "test2">
+<input type="button" onclick="myList()" value="Click Me!">\
+<p id = "show"></p>
+<script>
+    function myList() {
+        let a = parseFloat(document.getElementById("test1").value);
+        let b = parseFloat(document.getElementById("test2").value);
+        if ( a > b) {
+            document.getElementById("show").innerText = "Tham số thứ nhất lớn hơn tham số thứ hai";
+        } else {
+            total = a + b;
+            document.getElementById("show").innerHTML = total;
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function swap(x, y) {
+    //     let tmp = x;
+    //     x = y;
+    //     y = tmp;
+    //
+    // }
+    //
+    // function main() {
+    //     let a = 10;
+    //     let b = 5;
+    //     document.write(" Before swap: a = " + a + " b = " + b + "<br>");
+    //     swap(a, b);
+    //     document.write(" After swap: a = " + a + " b = " + b);
+    //
+    // }
+    //
+    // main();
+
+    function swap(arr) {
+        let tmp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = tmp;
+
+    }
+
+    function main() {
+        let myarr = [5, 10];
+        document.write(" Before swap: a = " + myarr[0] + " b = " + myarr[1] + "<br>");
+        swap(myarr);
+        document.write(" After swap: a = " + myarr[0] + " b = " + myarr[1] + "<br>");
+
+    }
+
+    main();
+</script>
+</body>
+</html>

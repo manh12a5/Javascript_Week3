@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>feet và meters</title>
+</head>
+<body>
+<script>
+    let a, b;
+    function main() {
+        let met = footToMeter();
+        let foot = meterToFoot();
+        alert(" Số mét là: " + met + " -- " + " Số Foot là: " + foot);
+    }
+    function footToMeter() {
+        a = parseFloat(prompt(" Nhập số Foot: "));
+        return 0.305 * a;
+    }
+    function meterToFoot() {
+        b = parseFloat(prompt(" Nhập số Mét: "));
+        return 3.279 * b;
+    }
+    main();
+
+</script>
+
+</body>
+</html>

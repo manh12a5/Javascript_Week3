@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển Đổi Nhiệt Độ</title>
+</head>
+<body>
+<fieldset style="width: 250px;">
+    <legend><h2>Chuyển đổi nhiệt độ</h2></legend>
+    Độ F: <input id="test" type="number"> <br>
+    <p> Độ C: </p>
+    <p id="show"> </p>
+    <button id="test 2" onclick="temperatureConverter()"> Chuyển đổi</button>
+</fieldset>
+<script>
+    function temperatureConverter() {
+        let a;
+        a = document.getElementById("test").value;
+        total = (a - 32) / 1.8;
+        document.getElementById("show").innerHTML = total;
+    }
+
+</script>
+</body>
+</html>

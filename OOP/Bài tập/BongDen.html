@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bóng Đèn</title>
+</head>
+<body>
+<script>
+    let FlashLamp = function () {
+        this.light = function () {
+            if(this.status){
+                alert("Lighting");
+            } else {
+                alert("Not lighting");
+            }
+        };
+
+        this.turnOn = function () {
+            this.status = true;
+        };
+
+        this.turnOff = function () {
+            this.status = false;
+        }
+    };
+    let flashLamp = new FlashLamp();
+    document.write("Turn on<br/>")
+    flashLamp.turnOn();
+    flashLamp.light();
+
+    document.write("Turn off<br/>")
+    flashLamp.turnOff();
+    flashLamp.light();
+</script>
+</body>
+</html>

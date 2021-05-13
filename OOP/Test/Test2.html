@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="300" height="300" style="border: black 2px dotted">
+</canvas>
+<script>
+    class Shape{
+        constructor(p_x, p_y)
+        {
+            this.pos_x = p_x;
+            this.pos_y = p_y;
+        }
+        //Ham truu tuong tinh dien tich
+        getArea(){}
+        //Ham truu tuong tinh chu vi
+        getPerimeter(){}
+        //Ham truu tuong de ve
+        draw(){}
+    }
+    class Circle extends Shape{
+        constructor(x,y,r) {
+            super(x,y);
+            this.radius = r;
+        }
+        getArea() {
+            return Math.PI * this.radius * this.radius;
+        }
+        getPerimeter() {
+            return 2*Math.PI* this.radius;
+        }
+        draw(context, hidden = false) {
+            context.beginPath();
+            context.strokeStyle = hidden?'#FFFFFF':'#000000';
+            context.lineWidth = hidden?3:1;
+            context.arc(this.pos_x, this.pos_y,this.radius, 0, 2*Math.PI);
+            context.stroke();
+        }
+        moveTo(new_x,new_y){
+            this.pos_x = new_x;
+            this.pos_y = new_y;
+        }
+    }
+    function main() {
+        let canvas = document.getElementById('myCanvas');
+        let context = canvas.getContext("2d");
+        let myCicle = new Circle( 150,150,50);
+        myCicle.draw(context);
+        let toRight = true;
+        let step = 10;
+        setInterval(function(){
+            myCicle.draw(context,true); //Xoa hinh cu
+            myCicle.pos_x += toRight?step:-step;
+            myCicle.moveTo(myCicle.pos_x, myCicle.pos_y);
+            myCicle.draw(context); //Ve hinh moi
+            if (myCicle.pos_x + myCicle.radius > 300)
+                toRight = false;
+            else
+            if (myCicle.pos_x - myCicle.radius <=0)
+                toRight = true;
+        },1000);
+    }
+    main();
+</script>
+</body>
+</html>

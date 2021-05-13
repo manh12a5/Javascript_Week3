@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<script>
+    function swapNum() {
+        let arr = [];
+
+        do {
+            let a = parseFloat(prompt(" Nhập số: "));
+            arr.push(a);
+
+            tt = prompt(" Bạn có muốn tiếp tục hay không ( C/K): ")
+        } while (tt == "C" || tt == "c");
+
+        arr.reverse();
+        alert("Đổi ngược: " + arr);
+    }
+
+    swapNum()
+</script>
+
+</body>
+</html>

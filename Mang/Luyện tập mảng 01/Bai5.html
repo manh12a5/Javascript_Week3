@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let tt;
+    do {
+        let num = parseFloat(prompt("Nhập một số ÂM bất kỳ: "));
+        if (num < 0) {
+            document.write(num + ",");
+        } else {
+            alert("False");
+        }
+        arr.push(num);
+        tt = prompt("Bạn muốn nhập tiếp (C/K): ")
+    } while (tt == "C" || tt == "c");
+
+    document.write("<br>" + "<br>" + "Số ÂM đã nhập: " + arr.length);
+
+</script>
+
+</body>
+</html>

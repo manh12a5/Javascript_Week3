@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a, b;
+    a = prompt(" Nhập giá trị của a: ");
+    b = prompt(" Nhập giá trị cửa b: ");
+    debugger
+    while (a * b !== 0) {
+        if (a < b) {
+            b = b % a;
+        } else if (a > b) {
+            a = a % b;
+        } else {
+            a = a + b;
+        }
+    }
+    document.write(" USCLN là: " + b);
+</script>
+</body>
+</html>

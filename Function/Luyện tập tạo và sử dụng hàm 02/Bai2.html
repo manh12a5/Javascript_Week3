@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<button id="test" onclick="dientich()"> Tính diện tích hình tròn</button>
+<button id="test2" onclick="chuvi()"> Tính chu vi hình tròn</button>
+<script>
+    let r = parseFloat(prompt(" Nhập bán kính hình tròn: "));
+    let pi = 3.14;
+
+    function dientich() {
+        let dt = r * r * pi
+        alert(dt);
+    }
+
+    function chuvi() {
+        let cv = 2 * r * pi;
+        alert(cv);
+    }
+</script>
+</body>
+</html>

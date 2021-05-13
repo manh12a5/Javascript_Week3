@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function repeatString(st, n = 5) {
+        let tmpSt = "";
+        for (let i = 0; i < n; i++)
+            tmpSt += st;
+        return tmpSt;
+
+    }
+
+    function main() {
+        document.write(repeatString("<br>" + "XYZ!"));
+        document.write(repeatString("<br>" + "ABC!", 10));
+
+    }
+
+    main();
+</script>
+</body>
+</html>

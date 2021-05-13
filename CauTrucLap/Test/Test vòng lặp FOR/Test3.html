@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let traudung, traunam, traugia;
+    for (traudung = 0; traudung <= 100; traudung++) {
+        for (traunam = 0; traunam <= 100; traunam++) {
+            for (traugia = 0; traugia <= 100; traugia++) {
+                if (traudung + traunam + traugia == 100 && 5 * traudung + 3 * traunam + (1 / 3) * traugia == 100) {
+                    document.write(" Số trâu đứng: " + traudung + "<br>" + " Số trâu nằm: " + traunam + "<br>" + " Số trâu già: " + traugia + "<br>" + "<br>");
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>

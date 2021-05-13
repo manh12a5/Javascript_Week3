@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<button id= "nut" onclick="nut()">Click Me!</button>
+<script>
+    function nut(){
+        let a = prompt("Nhập số bất kì từ 1 -100: ");
+        if ( a > 0 && a < 101){
+             b = document.write(Math.floor(Math.random()* 100 + 1));
+        } else {
+            alert("Nhập lại");
+        }
+        if ( a==b){
+            alert("Bạn đã thắng");
+        } else {
+            alert(" " +
+                "");
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // let myArr = [];
+    // let count = 0;
+    // while (count < 100) {
+    //     myArr[count] = 2 * count + 1;
+    //     count++;
+    // }
+    // let x;
+    // for (x in myArr)
+    //     console.log(myArr[x]);
+    //
+    // console.log(myArr.join());
+    //
+    // if (myArr[x] % 3 == 0) {
+    //     console.log(myArr[x]);
+    // }
+
+    // let arr = [];
+    // for (x in myArr)
+    // if (myArr[x] % 5 != 0)
+    //     arr.push(myArr[x]);
+    //     myArr = arr;
+    //     console.log(myArr.join());
+
+    let myArr = [];
+    // let count = 0;
+    // while (count <100)
+    //     count++;
+    for ( let i = 0; i < 100; i++)
+    myArr.push(Math.floor(Math.random() * 1000));
+    document.write(" Mảng ban đầu");
+    document.write(myArr.join());
+    myArr.sort(function (a, b) {return a-b;});
+    document.write(" Mảng sao khi sắp xếp");
+    document.write(myArr.join());
+
+</script>
+</body>
+</html>

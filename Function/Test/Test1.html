@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x, y; // Các cạch hình chữ nhật
+    function main() {
+        // Nhập các cạnh
+        nhapCanh();
+        // Tính chu vi
+        let cv = chuvi();
+        document.write(" Chu vi hình chữ nhật là: " + cv + "<br>");
+        // Tính diện tích
+        let dt = dientich();
+        document.write(" Diện tích hình chữ nhật là: " + dt + "<br>");
+        // Tính đường chéo
+        let dc = duongcheo();
+        document.write(" Đường chéo hình chữ nhật dài: " + dc+ "<br>")
+
+    }
+
+    function nhapCanh() {
+        x = parseFloat(prompt(" Nhập chiều dài: "));
+        y = parseFloat(prompt(" Nhập chiều rộng: "));
+
+    }
+
+    function chuvi() {
+        return (x + y) * 2;
+
+    }
+
+    function dientich() {
+        return x * y;
+
+    }
+
+    function duongcheo() {
+        return Math.sqrt(x * x + y * y);
+
+    }
+
+    main();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<p> Các số đã nhập: </p>
+<script>
+    let arr = [];
+    let tt;
+    do {
+        let num = parseFloat(prompt("Nhập số nguyên bất kỳ: "));
+        document.write(num + ",");
+        arr.push(num)
+        tt = prompt(" Tiếp tục cho thêm số ( C/K): ");
+    } while (tt === "C" || tt === "c");
+    arr.reverse();
+    document.write("<br>" + "<br>" + " Đảo ngược: " + "<br>" + "<br>" + arr);
+</script>
+</body>
+</html>

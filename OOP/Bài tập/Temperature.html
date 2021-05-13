@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+    let Temp = function (C) {
+        this.doC = C;
+
+        this.doF = function () {
+            return 1.8 * this.doC + 32;
+        }
+
+        this.doK = function () {
+            return  273.15 + this.doC;
+        }
+
+        this.toString = function () {
+            let st = "";
+            st += "<br>" + "Độ C: " + C;
+            st += "<br>" + "Độ F: " + this.doF();
+            st += "<br>" + "Độ K: " + this.doK();
+            return st;
+        }
+    }
+    let a = parseFloat(prompt("Nhập độ C: "));
+    let b = new Temp (a);
+
+    document.write(b.toString());
+
+</script>
+</body>
+</html>
